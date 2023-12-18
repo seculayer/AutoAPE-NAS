@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nas-rnn"
+version = "1.0.0"
+description = ""
+authors = ["이수빈 사원 <subin.lee@seculayer.com>"]
+readme = "README.md"
+packages = [{include = "nas_rnn"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+torch = "1.13.1"
+torchvision = "0.14.1"
+torchsummary = "*"
+
+graphviz = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

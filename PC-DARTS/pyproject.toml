@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "nas"
+version = "1.0.0"
+description = ""
+authors = ["이수빈 <subin.lee@seculayer.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7, <3.11"
+tensorflow = "2.7.0"
+tensorflow_datasets = "4.8.2"
+torch = "1.0.0"
+torchvision = "0.2.1"
+numpy = "^1.21"
+pandas = "*"
+pillow = "6.2.2"
+graphviz = "0.8.4"
+PyYAML = "6.0.0"
+opencv-python = "*"
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
